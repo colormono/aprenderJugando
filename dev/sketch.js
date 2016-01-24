@@ -369,14 +369,14 @@ function autoH( newWidth, originalWidth, originalHeight ){
 }
 
 function getRandomXPosition(){
-  var marginRight = 50;
-  var marginLeft = 50;
+  var marginRight = height*0.1;
+  var marginLeft = height*0.1;
   return( random(marginLeft, width-marginRight) );
 }
 
 function getRandomYPosition(){
-  var marginTop = 100;
-  var marginDown = 200;
+  var marginTop = height*0.1;
+  var marginDown = height*0.1;
   return( random(marginTop, height-marginDown) );
 }
 
